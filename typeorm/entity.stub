@@ -1,0 +1,11 @@
+import { Entity, PrimaryGeneratedColumn, Column } from "typeorm"
+
+@Entity()
+export class [NEEDLE_PASCAL] {
+    @PrimaryGeneratedColumn()
+    id: number
+
+//    @Column()
+//    username: string
+
+}
